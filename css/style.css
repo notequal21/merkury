@@ -1,4 +1,6 @@
+@import url("https://;
 
+");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;400;500;700&display=swap");
 * {
   padding: 0;
@@ -518,6 +520,7 @@ h6 {
 
 .main {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background-image: url("../img/main/bg_main.png");
   background-color: #0e1a35;
   background-position: center;
