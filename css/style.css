@@ -1783,6 +1783,7 @@ h6 {
 
 .pricing-bottom__btn {
   margin: 50px 0 0 0;
+  position: relative;
   -webkit-transform: translate(220%, 0);
       -ms-transform: translate(220%, 0);
           transform: translate(220%, 0);
@@ -1790,6 +1791,26 @@ h6 {
   -webkit-transition: all .6s ease 1.2s;
   -o-transition: all .6s ease 1.2s;
   transition: all .6s ease 1.2s;
+}
+
+.pricing-bottom__btn:before,
+.pricing-bottom__btn::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1px);
+  display: block;
+  width: 226px;
+  height: 1px;
+  background-color: #8492af;
+  opacity: 0.3;
+}
+
+.pricing-bottom__btn:before {
+  left: -256px;
+}
+
+.pricing-bottom__btn:after {
+  left: 235px;
 }
 
 .pricing-bottom__btn a {
@@ -2226,6 +2247,11 @@ h6 {
 
   .template-item__text.r .template-item__text-line {
     left: 20px;
+  }
+
+  .pricing-bottom__btn:before,
+  .pricing-bottom__btn::after {
+    display: none;
   }
 }
 
