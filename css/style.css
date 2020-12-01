@@ -1681,7 +1681,7 @@ h6 {
 }
 
 .pricing-body__item-advantages .minus {
-  background-image: url(/img/pricing/minus.png);
+  background-image: url(../img/pricing/minus.png);
   background-repeat: no-repeat;
   background-size: 24px;
   padding: 0 0 0 42px;
@@ -2345,4 +2345,4 @@ h6 {
 
 .webp .pricing-body__item-advantages .plus{ background-image: url(/img/pricing/plus.webp); }
 
-.webp .pricing-body__item-advantages .minus{ background-image: url(/img/pricing/minus.webp); }
+.webp .pricing-body__item-advantages .minus{ background-image: url(../img/pricing/minus.webp); }
