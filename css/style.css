@@ -2335,6 +2335,7 @@ h6 {
   }
 
   .main-body__img {
+    bottom: -100px;
     width: 300px;
     height: 211px;
     left: calc(50% - 150px);
