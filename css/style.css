@@ -1173,7 +1173,7 @@ h6 {
 }
 
 .drop {
-  background-image: url(/img/main/bg_main.png);
+  background-image: url(../img/main/bg_main.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2341,7 +2341,7 @@ h6 {
 
 .webp .browser-clmn__check li{ background-image: url(../img/browser/check.webp); }
 
-.webp .drop{ background-image: url(/img/main/bg_main.webp); }
+.webp .drop{ background-image: url(../img/main/bg_main.webp); }
 
 .webp .pricing-body__item-advantages .plus{ background-image: url(../img/pricing/plus.webp); }
 
