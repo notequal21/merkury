@@ -524,7 +524,6 @@ body {
 
 .main {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
   background-image: url("../img/main/bg_main.png");
   background-color: #0e1a35;
   background-position: center;
