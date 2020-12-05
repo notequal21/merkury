@@ -81,28 +81,28 @@ if (document.documentElement.clientWidth > 1000) {
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg.style.transform = 'translate(-' + x * 30 + 'px, -' + y * 30 + 'px)';
+    bg.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
   });
   
   let bg01 = document.querySelector('.kanuvoye-pomesucud-text');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg01.style.transform = 'translate(+' + x * 20 + 'px, +' + y * 20 + 'px)';
+    bg01.style.transform = 'translate(+' + x * 10 + 'px, +' + y * 10 + 'px)';
   });
   
   let bg02 = document.querySelector('.kanuvoye-pomesucud-subtext');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg02.style.transform = 'translate(+' + x * 10 + 'px, +' + y * 10 + 'px)';
+    bg02.style.transform = 'translate(+' + x * 8 + 'px, +' + y * 8 + 'px)';
   });
   
   let bg03 = document.querySelector('.kanuvoye-pomesucud-btn');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg03.style.transform = 'translate(+' + x * 6 + 'px, -' + y * 6 + 'px)';
+    bg03.style.transform = 'translate(+' + x * 4 + 'px, -' + y * 4 + 'px)';
   });
 
   let bg04 = document.querySelector('.kanuvoye-pomesucud-ico01');
@@ -130,14 +130,14 @@ if (document.documentElement.clientWidth > 1000) {
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg07.style.transform = 'translate(+' + x * 20 + 'px, +' + y * 20 + 'px)';
+    bg07.style.transform = 'translate(+' + x * 10 + 'px, +' + y * 10 + 'px)';
   });
 
   let bg08 = document.querySelector('.kanuvoye-pomesucud-browser-img');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg08.style.transform = 'translate(+' + x * 40 + 'px, -' + y * 40 + 'px)';
+    bg08.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 15 + 'px)';
   });
 
   let bg09 = document.querySelector('.kanuvoye-pomesucud-drop-image');
@@ -165,21 +165,21 @@ if (document.documentElement.clientWidth > 1000) {
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg12.style.transform = 'translate(-' + x * 25 + 'px, -' + y * 10 + 'px)';
+    bg12.style.transform = 'translate(-' + x * 12 + 'px, -' + y * 10 + 'px)';
   });
 
   let bg13 = document.querySelector('.kanuvoye-pomesucud-pricing-item02');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg13.style.transform = 'translate(+' + x * 20 + 'px, -' + y * 20 + 'px)';
+    bg13.style.transform = 'translate(+' + x * 6 + 'px, -' + y * 15 + 'px)';
   });
 
   let bg14 = document.querySelector('.kanuvoye-pomesucud-pricing-item03');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
-    bg14.style.transform = 'translate(-' + x * 15 + 'px, -' + y * 20 + 'px)';
+    bg14.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 15 + 'px)';
   });
 
   let bg15 = document.querySelector('.kanuvoye-pomesucud-pricing-text');
