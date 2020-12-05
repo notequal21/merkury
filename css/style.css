@@ -1,4 +1,6 @@
+@import url("https://;
 
+");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;400;500;700&display=swap");
 * {
   padding: 0;
@@ -2327,7 +2329,7 @@ body {
 
 @media (max-height: 920px) {
   .main-body {
-    padding: 100px 0 0 0;
+    padding: 140px 0 0 0;
   }
 }
 
