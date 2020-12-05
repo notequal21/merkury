@@ -1,4 +1,6 @@
+@import url("https://;
 
+");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;400;500;700&display=swap");
 * {
   padding: 0;
@@ -1220,6 +1222,7 @@ body {
   min-width: 0;
   min-height: 0;
   position: relative;
+  cursor: pointer;
   -webkit-transform: translate(120%, 0);
       -ms-transform: translate(120%, 0);
           transform: translate(120%, 0);
@@ -1571,7 +1574,7 @@ body {
 }
 
 .pricing-body__item {
-  cursor: pointer;
+  cursor: default;
   position: relative;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 360px;
@@ -2327,7 +2330,7 @@ body {
 
 @media (max-height: 920px) {
   .main-body {
-    padding: 140px 0 0 0;
+    padding: 100px 0 0 0;
   }
 }
 
