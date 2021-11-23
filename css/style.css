@@ -529,7 +529,7 @@ body {
 }
 
 .main {
-  height: 1000px;
+  height: 100vh;
   background-image: url("../img/main/bg_main.png");
   background-color: #0e1a35;
   background-position: center;
@@ -541,7 +541,7 @@ body {
 .main-body {
   padding: 170px 0 0 0;
   position: relative;
-  height: 1000px;
+  height: 100vh;
 }
 
 .main-body__text {
